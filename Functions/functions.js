@@ -52,7 +52,7 @@ console.log(maxValue(12,3,435,4365,3))
 
 
 
-//medium
+//MEDIUM
 
 
 //q1
@@ -134,7 +134,7 @@ console.log(minDate('02/05/2021', '24/01/2021'))
 
 
 
-//Advanced
+//ADVANCED
 
 
 
