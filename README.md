@@ -1,3 +1,3 @@
 # AssignmentOne
  
-## This repo contains build excercises solutions that are coded in ES6
+## This repo contains build exercises solutions that are coded in ES6
