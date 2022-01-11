@@ -69,15 +69,16 @@ console.log(findLength2([1,23,45,6,6]))
 
 
 //q2
-//doubt
-const findIndex = (item,array) => {
 
+const findIndex = (item,array) => {
+  let ans = 99
   array.map((element)=>{   
-  if(element === item)
-    console.log(array.indexOf(element))  // using console log gives index
-    return array.indexOf(element)   // but return gives undefined
-    
+  if(element === item){
+    console.log(array.indexOf(element))
+    ans = array.indexOf(element)
+    }
   })
+  return ans
 }
 
 console.log(findIndex(3,[3,4,5,6,7]))   
