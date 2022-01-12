@@ -137,7 +137,7 @@ const arithmeticsObj = {
     sum: (num1,num2)=>num1+num2,
     product: (num1,num2)=>num1*num2
 }
-const [sum,product]=arithmeticsObj
+const {sum,product}=arithmeticsObj
 console.log(`Sum: ${sum(3,4)} 
 and Product: ${product(3,4)}`)
 
@@ -230,7 +230,7 @@ const obj = {
     bhallo : 2
 }
 
-const {c : alooo = [2,3,4].push(5), alooo} = obj 
+const {c : alooo = [2,3,4].push(5), aloo} = obj 
 
 console.log(alooo)
 console.log(obj)
